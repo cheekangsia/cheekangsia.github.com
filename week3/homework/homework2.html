@@ -6,74 +6,86 @@
     <style>
     body {
         background-color: white;
-        font-family: 'Lato', sans-serif;
-        font-size: 2vw;
+        font-family: sans-serif;
+        
         
     }
 
     .titlebox {
-        display: space-evenly;
+        
         height: 30vh;
         text-align:center;
+        margin:auto;
+        width: 40%;
+        font-size: large;
     }
     
     .container {
         display: flex;
-        height: 90vh;
+        height: 80vh;
     }
 
     .container .box {
         
-        width: 30%;
+        width: 60vw;
+        text-align: center;
+        justify-content: space-evenly;
         
-        align-items: center;
        
     }
 
     .box div {     
-        width: 100%;
+        width: 50%;
+        height: auto;
     }
     h1 {
-            padding:50px;
-            border: 5px black solid;
+            padding:30px;
+            border: 6px black solid;
             border-top-style: hidden;
+            
     }
-    h2 {
+    h4 {
             padding: 8px;
             
         }
-    h4  {
-            padding: 4px;
-           
+    p  {
+            
+           font-size: medium;
         }
     </style>
+    <!-- this is HTML Comment 
+         The 2 lines below is to install Google Fonts. 
+         For all font in your homeworks, use Lato (as above)
+        -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     
     <div class="titlebox">
-        <h1>CUSTOMER REVIEWS</h1>
+        <h1>CUSTOMER REVIEWS </h1>
     </div>
     <div class="container">
         <div id="box1" class="box">
-            <img src="../exercise2/images/blake.png" height="20%" />
+            <img src="../exercise2/images/blake.png" height="30%" />
             <div class="titlebox">
-                <h2>Murielle Blake</h2>
-                <h4>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h4>
+                <h4>Murielle Blake</h4>
+                <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
             </div>
         </div>
         <div id="box2" class="box">
-            <img src="../exercise2/images/Tran.png" height="20%" />
+            <img src="../exercise2/images/Tran.png" height="30%" />
             <div class="titlebox">
-                <h2>Inna Tran</h2>
-                <h4>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h4>
+                <h4>Inna Tran</h4>
+                <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
             </div>
         </div>
         <div id="box3" class="box">
-            <img src="../exercise2/images/Meily.png" height="20%" />
+            <img src="../exercise2/images/Meily.png" height="30%" />
             <div class="titlebox">
-                <h2>Clyde Meily</h2>
-                <h4>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h4>
+                <h4>Clyde Meily</h4>
+                <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
             </div>
         </div>  
     </div>
