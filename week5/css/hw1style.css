@@ -1,0 +1,86 @@
+#container{
+    
+    background-color: powderblue;
+    max-width: 1024px;
+    margin:auto;
+    padding: 20px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic{
+    width: 10%;
+    
+}
+
+.pic1{
+    width: 100%;
+}
+
+.topnav{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.thnav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.frnav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnav{
+    background-color: azure;
+    text-align: center;
+}
+
+.column{
+    text-align: center;
+    width: 20%;
+    background-color:  antiquewhite;
+}
+
+.senav{
+    
+    text-align: center;
+}
+
+.phone{
+    
+    text-align: center;
+    width: 20%;
+    background-color: pink;
+}
+
+.story{
+    background-color: antiquewhite;
+    width: 78%;
+}
+
+.side{
+    
+    text-align: center;
+    background-color: antiquewhite;
+    width: 18%;
+}
+
+@media screen and(max-width:600px){
+    .thnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column{
+        width: 100%;
+    }
+}

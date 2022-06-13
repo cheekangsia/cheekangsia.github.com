@@ -1,0 +1,51 @@
+#container{
+    
+    background-color: powderblue;
+    max-width: 1024px;
+    margin:auto;
+    padding: 20px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pic{
+    width: 10%;
+}
+
+.frnav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnav{
+    background-color: azure;
+    text-align: center;
+}
+
+.story{
+    background-color: antiquewhite;
+    width: 78%;
+}
+
+.side{
+    
+    text-align: center;
+    background-color: antiquewhite;
+    width: 18%;
+}
+
+@media screen and(max-width:600px){
+    .thnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column{
+        width: 100%;
+    }
+}
