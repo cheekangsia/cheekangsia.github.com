@@ -1,6 +1,6 @@
 #container{
     
-    background-color: powderblue;
+    background-color: #7d58a8;
     max-width: 1024px;
     margin:auto;
     padding: 20px;
@@ -13,16 +13,19 @@
 }
 
 .pic{
-    width: 10%;
+    max-width: 150px;
+    min-width: none;
+    width: 80%;
     
 }
+
 
 .pic1{
     width: 100%;
 }
 
 .topnav{
-    background-color: aquamarine;
+    background-color: antiquewhite;
     text-align: center;
 }
 
@@ -40,7 +43,7 @@
 }
 
 .btnav{
-    background-color: azure;
+    background-color: antiquewhite;
     text-align: center;
 }
 
@@ -48,6 +51,7 @@
     text-align: center;
     width: 20%;
     background-color:  antiquewhite;
+   
 }
 
 .senav{
@@ -56,15 +60,18 @@
 }
 
 .phone{
-    
+    margin-top: 20px;
+    margin-bottom: 50px;
     text-align: center;
     width: 20%;
     background-color: pink;
+    
 }
 
 .story{
     background-color: antiquewhite;
     width: 78%;
+    padding-left: 20px;
 }
 
 .side{
@@ -74,13 +81,15 @@
     width: 18%;
 }
 
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .thnav{
         display: flex;
         flex-direction: column;
+        
     }
 
     .column{
         width: 100%;
+        margin-top: 10px;
     }
 }

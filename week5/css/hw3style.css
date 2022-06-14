@@ -22,7 +22,9 @@
     background-color: blueviolet;
     text-align: center;
     width: 40%;
+    
 }
+
 
 .right{
     
@@ -58,4 +60,65 @@
 .righthand{
     
     width: 55%;
+}
+
+
+
+@media screen and (max-width:600px){
+    .righthand{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .w1, .w2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .btm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (min-width: 600px)and(max-width: 1024px){
+    .righthand{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .w1, .w2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .btm{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

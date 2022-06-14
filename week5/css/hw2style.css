@@ -1,6 +1,6 @@
 #container{
     
-    background-color: powderblue;
+    background-color: #e36bc7;
     max-width: 1024px;
     margin:auto;
     padding: 20px;
@@ -9,11 +9,38 @@
 .header{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.headers{
+    width: 50%;
+    
 }
 
 
+.phone{
+    
+    width: fit-content;
+    text-align: right;
+    background-color: #f1f582;
+    
+}
+
+.menu{
+    
+    text-align: center;
+    background-color: #f1f582;
+    
+}
 .pic{
-    width: 10%;
+    max-width: 150px;
+    min-width: none;
+    width: 80%;
+    
+}
+
+.pic1{
+    width: 100%;
 }
 
 .frnav{
@@ -23,29 +50,36 @@
 }
 
 .btnav{
-    background-color: azure;
+    background-color: #f1f582;
     text-align: center;
 }
 
 .story{
-    background-color: antiquewhite;
+    background-color: #f1f582;
     width: 78%;
+    padding-left: 10px;
 }
 
 .side{
     
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #f1f582;
     width: 18%;
 }
 
-@media screen and(max-width:600px){
-    .thnav{
+
+@media screen and (max-width:600px){
+    .frnav{
         display: flex;
         flex-direction: column;
     }
 
     .column{
         width: 100%;
+        
+    }
+
+    .side{
+        margin-top: 10px;
     }
 }
