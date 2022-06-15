@@ -22,8 +22,10 @@
     background-color: blueviolet;
     text-align: center;
     width: 40%;
-    
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
 
 
 .right{
@@ -55,6 +57,8 @@
     width: 100%;
     background-color: blue;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .righthand{
@@ -90,6 +94,64 @@
         display: flex;
         flex-direction: column;
     }
+}
+
+@media screen and (min-width:600px){
+    .right{
+    
+        width: 100%;
+    }
+    .row{
+        
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    
+    .w1, .w2{
+        
+        background-color: aquamarine;
+        width: 100%;
+    }
+
+    .w2{
+        margin-top: 15px;
+    }
 
     
+} 
+
+@media screen and (min-width:1024px){
+    .nav{
+    
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right{
+    
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .row{
+        flex-wrap: none;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+    
+    .w1, .w2{
+        margin-top: 0%;
+        background-color: aquamarine;
+        width: 45%;
+    }
+    
 }
+    
+
+    
+
+
