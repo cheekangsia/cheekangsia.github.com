@@ -14,27 +14,29 @@
 
 .headers{
     
+    align-items: flex-end;
     width: 50%;
     
 }
-
 .ph{
-    width: 40%;
-    display: flex-end;
-    text-align: right;
-    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
+
 
 .phone{
     
-    
+    padding: 2%;
     text-align: center;
     background-color: #f1f582;
     
 }
 
 .menu{
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
     text-align: center;
     background-color: #f1f582;
     
