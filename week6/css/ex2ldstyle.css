@@ -1,0 +1,41 @@
+.top {grid-area: blog; }
+.secondl {grid-area: logo; }
+.secondt {grid-area: phone; }
+.secondb {grid-area: menu; }
+.thirdl {grid-area: slide; }
+.thirdr {grid-area: side; }
+.fourl {grid-area: text; }
+.btm {grid-area: foot; }
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'blog blog blog blog'
+    'logo none none phone'
+    'logo menu menu menu'
+    'slide slide slide side'
+    'text text text side'
+    'text text text side'
+    'foot foot foot foot';
+    gap: 8px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.grid-container >div{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+.fourl{
+    height: 100px;
+}
+
+.btm{
+    height: 100px;
+}

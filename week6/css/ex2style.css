@@ -1,0 +1,41 @@
+.topl {grid-area: logo; }
+.topr {grid-area: menu; }
+.second {grid-area: imageslideshow; }
+.third1 {grid-area: feat1; }
+.third2 {grid-area: feat2; }
+.third3 {grid-area: feat3; }
+.fourl {grid-area: sidebar; }
+.fourr {grid-area: textcontent; }
+.btm {grid-area: footer; }
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'logo menu menu'
+    'imageslideshow imageslideshow imageslideshow'
+    'feat1 feat2 feat3'
+    'sidebar textcontent textcontent'
+    'footer footer footer';
+    gap: 8px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.grid-container >div{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.second{
+    height: 100px;
+}
+
+.fourl{
+    height: 100px;
+}
+
+.fourr{
+    height: 100px;
+}

@@ -1,0 +1,104 @@
+.container{
+    position: relative;
+    background-image: url('../images/forest.png');
+    height: 900px;
+    background-size: cover;
+    color: aliceblue;
+    
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+.topcenter{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+
+.center{
+    
+    text-align: center;
+}
+
+
+.btml{
+    display: flex;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+.btmr{
+    display: flex;
+    border: 2px yellow dotted;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+
+a{
+    color: #272424;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.ct{
+    
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    
+    
+}
+
+h4{
+    color: red;
+}
+
+.ctr{
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 35%;
+    
+}
+
+img{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.t{
+    display: flex;
+}
+
+.n{
+    display: flex;
+}
+.story{
+    padding-left: 20px;
+}

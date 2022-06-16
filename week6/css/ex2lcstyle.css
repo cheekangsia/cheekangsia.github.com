@@ -1,0 +1,37 @@
+.topl {grid-area: logo; }
+.toprt {grid-area: phone; }
+.toprb {grid-area: menu; }
+.second {grid-area: image; }
+.thirdl {grid-area: text; }
+.thirdr {grid-area: side; }
+.btm {grid-area: foot; }
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'logo none phone'
+    'logo menu menu'
+    'image image image'
+    'text text side'
+    'foot foot foot';
+    gap: 8px;
+    background-color: aqua;
+    padding: 10px;
+    
+}
+
+.grid-container >div{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.third1{
+    height: 100px;
+}
+
+.thirdr{
+    height: 100px;
+}
