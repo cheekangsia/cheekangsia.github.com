@@ -40,7 +40,7 @@ h2{
     background-image: url(../images/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 700px;
+    background-size: 40%;
     display: flex;
     position: relative;
 }
@@ -235,9 +235,7 @@ h3{
     width: 80%;
 }
 
-#three{
-    text-align: center;
-}
+
 
 .btmt{
     margin-top: 8%;
@@ -279,4 +277,81 @@ h3{
 
 .sicon{
     display: flex;
+}
+
+@media screen and (max-width: 450px){
+    .senav{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .thirdnav{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .topnav{
+        padding-top: 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifthnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6{
+    
+        width: 100%;
+       
+    }
+
+    .web{
+        background-size: 100%;
+    }
+
+    .righthand{
+        display:none;
+    }
+
+    #img1, #img2{
+    
+        max-width: 300px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .cont1, .cont2, .cont3{
+        margin-top: 3%;
+    }
+
+    .btmbc p{
+        font-size: xx-small;
+    }
+
+    .btmbc{
+        margin-top: 60%;
+    }
+
+    .p1{
+        position: none;
+        left: 0%;
+        top: 1px;
+    }
+    h2{
+        position: none;
+        left: 16%;
+        top: 1px;
+    }
+
+    
 }
