@@ -137,10 +137,14 @@ h2{
 .title{
     width: 124%;
 }
+
 .cont1, .cont2, .cont3{
     text-align: center;
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 10px;
+    background-color: white;
+    padding: 10px 40px;
+    
 }
 
 .btmb{
@@ -278,6 +282,19 @@ h3{
 .sicon{
     display: flex;
 }
+
+#b1 p, #b2 p{
+    border: blue solid 1px;
+    border-radius: 60px;
+    text-align: center;
+    width: 60%;
+}
+
+#b1, #b2{
+    width: 100%;
+    padding-left: 20%;
+}
+
 
 @media screen and (max-width: 450px){
     .senav{
