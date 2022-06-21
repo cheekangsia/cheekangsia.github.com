@@ -1,0 +1,282 @@
+.ltop{
+    display: flex;
+    
+}
+
+.rtop{
+    padding-top: 20px;
+    
+}
+a{
+    font-size: x-small;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    
+    max-width: 50px;
+
+}
+
+.p1{
+    position: absolute;
+    top: 6px;
+    left: 100px;
+}
+h2{
+    position: absolute;
+    top: 8px;
+    left: 170px;
+}
+
+.web{
+    background-image: url(../images/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 700px;
+    display: flex;
+    position: relative;
+}
+
+.senav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c1 {
+    background-image: url(../images/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    color: aliceblue;
+    height: 40px;
+    width: 170px;
+    position: relative;
+}
+
+.c2{
+    background-image: url(../images/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: right;
+    color: aliceblue;
+    height: 40px;
+    width: 200px;
+    position: relative;
+}
+.c1inline{
+    font-size: smaller;
+    position: absolute;
+    bottom: 1px;
+    left:28px;
+}
+
+.c2inline{
+    font-size: smaller;
+    position: absolute;
+    bottom: 1px;
+    left:46px;
+}
+
+.c3inline{
+    font-size: smaller;
+    position: absolute;
+    bottom: 0%;
+    right: 6%;
+}
+
+.c4inline{
+    font-size: smaller;
+    position: absolute;
+    bottom: 1px;
+    left:130px;
+}
+#img1, #img2{
+    
+    max-width: 420px;
+}
+
+.thirdnav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourthnav{
+    margin-left: 70px;
+}
+.fifthnav{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25%;
+}
+
+.sixthnav{
+    background-color: #f5c4f2;
+   width: 100%;
+}
+
+.sixcontent{
+    text-align: center;
+    width: 80%;
+
+}
+
+.title{
+    width: 124%;
+}
+.cont1, .cont2, .cont3{
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.btmb{
+    height: 400px;
+}
+
+.rthirdnav{
+    padding-top: 40px;
+}
+.bottom{
+    text-align: center;
+    background-image: url(../images/Bg\ Shape\ footer\ 2@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left{
+    width: 10%;
+    position: relative;
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.images1{
+    margin-top: 20px;
+}
+
+.images2{
+    height: 20px;
+    margin: 5px 5px;
+}
+
+.right{
+    position: relative;
+    width: 80%;
+}
+
+.righthand{
+    width: 10%;
+}
+
+p{
+    font-size: small;
+    padding-right: 2px;
+}
+
+h4{
+    font-size: x-large;
+    margin-bottom: 0%;
+    margin-top: 90px;
+}
+
+#mouse{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+
+.mousepic{
+    max-height: 50px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h3{
+    font-size: x-large;
+    margin-top: 0px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    
+    width: 22.66%;
+    padding: 20px 0px 20px 30px;
+    border: #d6d5d2  1px solid;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    text-align: center;
+    width: 80%;
+}
+
+#three{
+    text-align: center;
+}
+
+.btmt{
+    margin-top: 8%;
+    
+}
+
+.btmce{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15%;
+    
+}
+.btmbc{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    color: white;
+    margin-left: 20%;
+    
+}
+
+.bt2{
+    text-align: left;
+}
+
+.bt3{
+    text-align: left;
+}
+
+.bt4{
+    text-align: left;
+}
+
+.icon{
+    height:10px;
+    
+}
+
+.sicon{
+    display: flex;
+}
