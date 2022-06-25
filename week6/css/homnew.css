@@ -351,6 +351,12 @@ body{
     .right{
         width: 110%;
     }
+    .btmce{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
 }
 
 
@@ -364,7 +370,10 @@ body{
 }
 @media screen and (max-width:550px){
     
-    
+    .email{
+        min-width: 300px;
+        
+    }
     .right{
         width: 100%;
     }
@@ -387,6 +396,11 @@ body{
         padding: 5px;
         margin: 10px;
         
+    }
+
+    .bt1, .bt2, .bt3, .bt4{
+        padding-top: 20px;
+        font-size: xx-small;
     }
 }
 
