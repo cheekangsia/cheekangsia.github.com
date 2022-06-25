@@ -250,6 +250,13 @@ img{
     height: 10px;
 }
 
+.leftsenav h1{
+    margin-top: 0px;
+}
+
+.leftsenav h4{
+    margin-bottom: 0px;
+}
 h3{
     
     margin-top: 2px;
