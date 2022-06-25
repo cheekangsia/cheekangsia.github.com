@@ -12,6 +12,7 @@
     background-position: right top;
     background-size: 40%;
     position: relative;
+    margin: auto;
 }
 .icon{
     margin-top: 20px;
