@@ -1,0 +1,90 @@
+.bottom{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+#titletop{
+    font-size: 60px;
+}
+
+.topbar, .email, .phone, .address, .address2, .ciity, .bottomsecond, .gend{
+    margin-bottom: 14px;
+}
+#btn{
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    padding: 8px;
+}
+
+.background{
+    background-color:#90f590 ;
+    margin: 20px  190px;
+
+}
+
+.topbar{
+    display: flex;
+
+}
+.ciity{
+    display: flex;
+}
+
+#city, #region{
+    flex: 1;
+}
+
+#region{
+    margin-left: 9px;
+}
+
+
+.bottomsecond{
+    display: flex;
+}
+
+#postal, #country{
+    flex: 1;
+}
+
+#country{
+    margin-left: 9px;
+}
+
+#fname, #lname{
+    flex: 1;
+    
+}
+
+#lname{
+    margin-left: 9px;
+}
+
+.email{
+    display: flex;
+
+}
+
+.phone{
+    display: flex;
+
+}
+
+#Email , #Phone{
+    flex: 1;
+}
+
+.address, .address2{
+    display: flex;
+}
+
+#line1address, #line2address{
+    flex: 1;
+}
+
+#fname, #lname ,#Email , #Phone, #line1address, #line2address, #city, #region, #postal, #country{
+    background-color: #ccfccc ;
+    padding: 10px;
+}
