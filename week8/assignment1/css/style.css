@@ -1,0 +1,212 @@
+.intro{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.topbar{
+    background-color: #28323E;
+    color: white;
+    height: 200px;
+}
+
+.fullscreen{
+    display: flex;
+}
+#emptyl, #emptyr{
+    width: 1%;
+}
+li{
+    margin-top: 2%;
+    font-size: 26px;
+}
+#center{
+    width: 98%;
+}
+.introname{
+    display: flex;
+    align-items: center;
+    min-width: 45%;
+}
+
+#ownname{
+    width:100%;
+    text-align: center;
+    font-size: 33px;
+}
+
+img{
+    max-width: 400px;
+}
+
+#bakkut{
+    max-width: 400px;
+    max-height: 260px;
+}
+
+#noodlefry{
+    max-width: 320px;
+    max-height: 320px;
+}
+.backgroundcolor{
+    background-color: #F6FBF4;
+}
+.introstory{
+    min-width: 60%;
+    font-size: 26px;
+    
+}
+
+.home{
+    display: flex;
+}
+
+.homepic{
+    
+    margin-left: 12%;
+    margin-right: 6%;
+    
+}
+
+.homestory{
+    min-width: 60%;
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 26px;
+}
+
+.food{
+    display: flex;
+    margin-left: 6%;
+    margin-bottom: 4%;
+}
+
+.foodbox1, .foodbox2, .foodbox3{
+    text-align: center;
+    width: 27%;
+   margin: auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+.hobbypicture{
+    display: flex;
+    margin-bottom: 4%;
+    background-image: url(../images/Screenshot\ \(766\).png);
+    background-size: cover;
+}
+
+.hobby{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 4%;
+}
+
+.secondbottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlebar{
+    text-align: center;
+    padding: 1%;
+    font-size: 50px;
+}
+
+.topbardetail{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+#logo{
+    max-width: 50px ;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-left: 8%;
+}
+.title{
+    font-size: 35px;
+    color: #EF6D58;
+    padding: 4% 0% 0% 6%;
+}
+
+.title1{
+    font-size: 35px;
+    color: #EF6D58;
+    padding: 4% 0% 25% 6%;
+}
+
+.title2{
+    font-size: 30px;
+    color: #EF6D58;
+    margin-bottom: 2%;
+}
+
+#badpic{
+    max-width: 350px;
+   
+}
+
+#diaboloheight{
+    border-radius: 50px;
+    min-height: 550px;
+}
+.diabolo{
+    margin-left: 18%;
+}
+
+.game{
+    margin-left: 12%;
+}
+
+.kingpro{
+    margin-bottom: 4%;
+}
+
+#kingborder, #bookborder{
+    border-radius: 50px;
+}
+
+.contactbutton{
+    border: #F6FBF4 solid 1px;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    margin-right: 8%;
+}
+
+#cont{
+    padding: 0px 10px 10px 10px;
+}
+
+.secondbottomspace{
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+#facebook{
+    border: #F2D1D1 solid  ;
+    border-radius: 95px;
+    background-color: #F2D1D1;
+    max-height: 20px;
+    width: 27px;
+    text-align: center;
+}
+
+.bottomright{
+    display: flex;
+    justify-content: space-between;
+    min-width: 220px
+}
