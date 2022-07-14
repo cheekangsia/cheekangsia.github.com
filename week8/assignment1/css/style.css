@@ -90,9 +90,13 @@ img{
 
 .hobbypicture{
     display: flex;
-    margin-bottom: 4%;
-    background-image: url(../images/Screenshot\ \(766\).png);
-    background-size: cover;
+    margin-bottom: 2%;
+    background-image: url(../images/Screenshot\ \(769\).png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 800px;
+
+
 }
 
 .hobby{
@@ -106,7 +110,7 @@ img{
     justify-content: space-between;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .secondbottom{
@@ -161,13 +165,16 @@ img{
 
 #diaboloheight{
     border-radius: 50px;
-    min-height: 550px;
+    height: 660px;
+    width: 600px;
 }
 .diabolo{
+    margin-top: 7%;
     margin-left: 18%;
 }
 
 .game{
+    margin-top: 7%;
     margin-left: 12%;
 }
 
@@ -177,6 +184,13 @@ img{
 
 #kingborder, #bookborder{
     border-radius: 50px;
+    width: 380px;
+    height: 300px;
+
+}
+
+#bookborder{
+    height: 340px;
 }
 
 .contactbutton{
@@ -209,4 +223,132 @@ img{
     display: flex;
     justify-content: space-between;
     min-width: 220px
+}
+
+#line3{
+    background-color: #3A3C56;
+    height: 1px;
+    margin: 20px 190px 2px 190px;
+}
+
+@media screen and (max-width:760px){
+
+    .diabolo{
+        margin-left: 9%;
+    }
+
+    #kingborder, #bookborder{
+        border-radius: 50px;
+        width: 180px;
+        height: 300px;
+    
+    }
+
+    #diaboloheight{
+        border-radius: 50px;
+        height: 660px;
+        width: 250px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .homepic{
+        display: flex;
+        justify-content: center;
+    }
+    .homestory{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .introstory{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hobbypicture{
+        display: flex;
+        margin-bottom: 2%;
+        background-image: none;
+        
+    
+    
+    }
+
+
+}
+
+@media screen and (max-width:550px){
+    .introstory{
+        font-size: 20px;
+    }
+
+    .homestory{
+        font-size: 20px;
+    }
+
+    .food{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    li{
+        font-size: 20px;
+        margin-bottom: 7%;
+    }
+
+    img{
+        max-width: 450px;
+    }
+
+    .clo{
+        min-width: 220px;
+       
+    }
+
+    .foodbox1, .foodbox2, .foodbox3{
+        
+        margin-left: 21%;
+    }
+
+    #kingborder, #bookborder{
+        border-radius: 50px;
+        width: 130px;
+        height: 240px;
+    
+    }
+
+    #diaboloheight{
+        border-radius: 50px;
+        height: 600px;
+        width: 200px;
+    }
+
+    .secondbottom{
+        display: flex;
+        justify-content: center;
+    }
+
+    .margin{
+        margin-left: 38%;
+    }
+    #facebook{
+        margin-left: 30%;
+    }
+    
+    .title2{
+        text-align: center;
+    }
 }
