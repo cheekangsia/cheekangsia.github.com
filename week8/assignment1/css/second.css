@@ -354,6 +354,27 @@ p {
 }
 
 @media screen and (max-width:754px) {
+
+    #song, #songnm{
+        font-size: 30px;
+    }
+    #name{
+        font-size: 50px;
+    }
+    #web{
+        font-size: 44px;
+    }
+
+    .movie{
+        font-size: 30px;
+    }
+    .story2{
+        font-size: 35px;
+    }
+
+    .story1{
+        font-size: 20px;
+    }
     .secondbar {
         display: flex;
         flex-direction: column;
@@ -469,10 +490,10 @@ p {
         background-image: url(../images/black.png);
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position-y: 2210px;
+        background-position-y: 2080px;
         background-position-x: 10px;
         background-size: cover;
-        height: 1160px;
+        height: 1080px;
 
     }
 
@@ -485,6 +506,14 @@ p {
     #isu {
         padding-bottom: 60px;
     }
+
+   .contact{
+    font-size: 30px;
+   }
+
+   .phoneway{
+    font-size: 32px;
+   }
 }
 
 @media screen and (max-width:550px) {
