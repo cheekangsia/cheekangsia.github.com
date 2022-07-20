@@ -23,14 +23,22 @@
     font-size: 60px;
   }
 
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #EF6D58;
+    display: block;
+    transition: 0.3s;
+  }
+
+i{
+    color: white;
+}
+
 .icon{
     display: none;
 }
-
-i{
-    color: red;
-}
-
 .overlay-content {
     position: relative;
     top: 25%;
@@ -416,7 +424,7 @@ a:hover{
     min-width: 220px
 }
 
-img.icon{
+img.icon1{
     width: 30px;
 }
 
@@ -616,6 +624,7 @@ img.icon{
     .dinor{
         font-size: 25px;
     }
+ 
 }
 
 @media screen and (max-width:618px){
@@ -693,6 +702,11 @@ img.icon{
     .three, .contactbutton{
         display: none;
     }
+
+    .icon{
+        width: 20px;
+        display: initial;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -706,4 +720,8 @@ img.icon{
         display: none;
     }
     
+    .icon{
+        width: 20px;
+        display: initial;
+    }
   }

@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>音乐</title>
     <link rel="stylesheet" href="css/third.css">
+    <script src="https://kit.fontawesome.com/f27edc9a16.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="fullscreen">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="home.html">主页</a>
+              <a href="second.html">介绍</a>
+              <a href="third.html">音乐</a>
+              <a href="fourth.html">电影</a>
+              <a href="contact.html">联系</a>
+            </div>
+          </div>
         <div id="emptyl">
 
         </div>
@@ -25,6 +36,10 @@
                     <div class="contactbutton">
                         <div id="cont"><a href="contact.html">联系</a></div>
                     </div>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa fa-bars"></i>
+                        
+                      </a>
                 </div>
 
             </div>
@@ -160,6 +175,15 @@
 
         </div>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 </body>
 
 </html>
