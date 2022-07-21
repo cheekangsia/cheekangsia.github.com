@@ -399,6 +399,10 @@ a:hover{
         justify-content: center;
         margin: auto;
     }
+
+    .ema{
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 600px) {

@@ -409,6 +409,15 @@ p{
 }
 
 @media screen and (max-width: 430px){
+
+    #bluerap{
+        max-width: 180px;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+
     #jurassic{
             max-width: 280px;
     }

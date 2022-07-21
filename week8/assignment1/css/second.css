@@ -452,6 +452,10 @@ a:hover {
 
 @media screen and (max-width:580px){
 
+    #badpic{
+        max-width: 230px;
+    }
+
     .title2{
         display: flex;
         justify-content: center;
@@ -548,13 +552,22 @@ a:hover {
     }
 
     #badpic{
-        max-width: 240px;
+        max-width: 220px;
     }
 
    
 }
 
 @media screen and (max-width:450px){
+
+    .title1{
+        font-size: 35px;
+        color: #EF6D58;
+        padding: 0% 0% 2% 6%;
+    }
+    #badpic{
+        max-width: 165px;
+    }
     #kingborder, #bookborder{
         border-radius: 50px;
         width: 130px;
@@ -564,8 +577,13 @@ a:hover {
 
     #diaboloheight{
         border-radius: 50px;
-        height: 400px;
-        width: 180px;
+        height: 360px;
+        width: 130px;
+    }
+
+    li{
+        margin-bottom: 3%;
+        font-size: 18px;
     }
 
     
