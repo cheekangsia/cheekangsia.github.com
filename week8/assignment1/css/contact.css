@@ -403,20 +403,32 @@ a:hover{
     .ema{
         font-size: small;
     }
+
+    .addressbg{
+        height: 230px;
+    }
+
+    .rightbox{
+        width: 100%;
+    }
+
+    .address{
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width:470px){
     #email,
     #isu {
-        padding: 10px 10% 10px 10px;
+        padding: 10px 4% 10px 10px;
         background-color: #E6F7F4;
     }
 }
 
-@media screen and (max-width:310px){
+@media screen and (max-width:410px){
     .rightbox{
-        padding-right: 18%;
-        padding-left: 18%;
+        min-width: 208px;
+        
     }
 }
 
@@ -425,6 +437,10 @@ a:hover{
     #isu {
         padding: 10px 4% 10px 10px;
         background-color: #E6F7F4;
+    }
+
+    .address{
+        font-size: 19px;
     }
 }
 

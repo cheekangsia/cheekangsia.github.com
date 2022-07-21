@@ -608,20 +608,20 @@ a:hover {
 
     #bread{
         min-width: 0px;
-        max-height: 100px;
-        max-width: 150px;
+        max-height: 110px;
+        max-width: 173px;
     }
 
     #bakkut{
         min-width: 0px;
-        max-width: 150px;
-        max-height: 100px;
+        max-width: 173px;
+        max-height: 110px;
     }
 
     #noodlefry{
         min-width: 0px;
-        max-width: 150px;
-        max-height: 100px;
+        max-width: 173px;
+        max-height: 110px;
     }
 
     li{
