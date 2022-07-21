@@ -589,6 +589,50 @@ a:hover {
     
 }
 
+@media screen and (max-width:368px){
+    #badpic{
+        max-width: 145px;
+    }
+
+    #diaboloheight{
+        border-radius: 50px;
+        height: 250px;
+        width: 100px;
+    }
+
+    #kingborder, #bookborder{
+        border-radius: 50px;
+        width: 100px;
+        height: 120px;
+    }
+
+    #bread{
+        min-width: 0px;
+        max-height: 100px;
+        max-width: 150px;
+    }
+
+    #bakkut{
+        min-width: 0px;
+        max-width: 150px;
+        max-height: 100px;
+    }
+
+    #noodlefry{
+        min-width: 0px;
+        max-width: 150px;
+        max-height: 100px;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    img{
+        max-width: 190px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {

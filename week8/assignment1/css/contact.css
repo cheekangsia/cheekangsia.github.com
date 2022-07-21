@@ -405,6 +405,29 @@ a:hover{
     }
 }
 
+@media screen and (max-width:470px){
+    #email,
+    #isu {
+        padding: 10px 10% 10px 10px;
+        background-color: #E6F7F4;
+    }
+}
+
+@media screen and (max-width:310px){
+    .rightbox{
+        padding-right: 18%;
+        padding-left: 18%;
+    }
+}
+
+@media screen and (max-width:320px){
+    #email,
+    #isu {
+        padding: 10px 4% 10px 10px;
+        background-color: #E6F7F4;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
