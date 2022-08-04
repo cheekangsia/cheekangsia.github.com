@@ -12,6 +12,7 @@
 
 #heightiron, #heightiron2{
     height: 630px;
+    
 }
 
 .carousel-caption {
@@ -28,4 +29,13 @@
     -webkit-align-items: center;
     align-items: center;
     height: 100%;
+}
+
+.full{
+    max-width: 1700px;
+}
+
+#carouselExampleSlidesOnly{
+    padding-left: 1px;
+    padding-right: 1px;
 }
