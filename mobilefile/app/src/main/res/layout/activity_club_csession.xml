@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".club_c_session"
+    android:background="@color/purple_200">
+
+
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="165dp"
+        android:text="Event 1"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple_200"
+        android:gravity="center_horizontal"
+        android:text="Club C \n Session"
+        android:textAlignment="gravity"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="104dp"
+        android:text="Upcoming Events:"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="165dp"
+        android:text="Event 1"
+        android:textSize="18dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="630dp"
+        android:layout_height="550dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="202dp"
+        android:background="#ABF2FB" />
+
+    <TextView
+        android:id="@+id/rankedNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="220dp"
+        android:text="   Date: Apr 16, Tuesday\nTime: 7.30pm-9.00pm\nVenue: Sunway South Quay Extreme Park\nFee: RM 10   RM8\nCourt: p1\nLevel: Beginner to Average\nPrice: RM500\nStatus attending: 3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="36dp"
+        android:text="Attend"
+        android:backgroundTint="@color/purple_200"/>
+
+</RelativeLayout>

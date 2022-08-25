@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProject">
+        <activity
+            android:name=".club_c_scoreboard"
+            android:exported="false" />
+        <activity
+            android:name=".club_b_scoreboard"
+            android:exported="false" />
+        <activity
+            android:name=".club_a_scoreboard"
+            android:exported="false" />
+        <activity
+            android:name=".club_c_session"
+            android:exported="false" />
+        <activity
+            android:name=".club_b_session"
+            android:exported="false" />
+        <activity
+            android:name=".club_a_session"
+            android:exported="false" />
+        <activity
+            android:name=".club_c_realtime"
+            android:exported="false" />
+        <activity
+            android:name=".club_b_realtime"
+            android:exported="false" />
+        <activity
+            android:name=".club_a_realtime"
+            android:exported="false" />
+        <activity
+            android:name=".clubcmember"
+            android:exported="false" />
+        <activity
+            android:name=".clubbmember"
+            android:exported="false" />
+        <activity
+            android:name=".clubamember"
+            android:exported="false" />
+        <activity
+            android:name=".clubcleaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".clubbleaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".clubaleaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".clubchomepage"
+            android:exported="false" />
+        <activity
+            android:name=".clubbhomepage"
+            android:exported="false" />
+        <activity
+            android:name=".Clubahomepage"
+            android:exported="false" />
+
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".SinUp"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -159,7 +159,7 @@ span1 {
 @media screen and (max-width:1300px) {
 
   .sixpic {
-    max-width: 250px;
+    max-width: 450px;
   }
 
   .flip-card-back {
@@ -234,7 +234,7 @@ span1 {
   .queue{
     display: flex;
     flex-direction: column;
-    justify-content: centers;
+    justify-content: center;
     
   }
 

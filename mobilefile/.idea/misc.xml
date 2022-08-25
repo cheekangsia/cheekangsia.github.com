@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_arealtime.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_ascoreboard.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_asession.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_brealtime.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_bscoreboard.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_bsession.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_crealtime.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_cscoreboard.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_club_csession.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubahomepage.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubaleaderboard.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubamember.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubbhomepage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubbleaderboard.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubbmember.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubchomepage.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubcleaderboard.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_clubcmember.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_host_sessions.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_sin_up.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
